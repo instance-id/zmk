@@ -92,5 +92,6 @@ target_sources_ifdef(CONFIG_ZMK_LED_INDICATORS app PRIVATE src/led_indicators.c)
 target_sources(app PRIVATE src/main.c)
 
 add_subdirectory(src/display/)
+add_subdirectory(src/shell/)
 
 zephyr_cc_option(-Wfatal-errors)
